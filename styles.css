@@ -40,10 +40,20 @@
 }
 
 .dark {
- background-color: darkslategrey;
+ background-color: #338f8f;
  color: aliceblue;
 }
 
-.grey {
-    background-color: grey;
+.dark_1 {
+    background-color: #f5f533;
 }
+
+.dark:hover {
+    background-color: #f5f533;
+    color: #338f8f;
+  }
+  
+  .dark_1:hover {
+    background-color: #338f8f;
+    color: aliceblue;
+  }
